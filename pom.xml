@@ -6,14 +6,14 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.digital.smart</groupId>
-        <artifactId>digital-smart-starter-parent</artifactId>
+        <artifactId>digital-smart-parent</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath/>
     </parent>
     <groupId>com.digital.smart</groupId>
-    <artifactId>digital-smart-parent</artifactId>
+    <artifactId>digital-smart-platform</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>digital-smart-parent</name>
+    <name>digital-smart-platform</name>
     <description>DigitalSmart云服务平台父级工程</description>
     <packaging>pom</packaging>
     <properties>
@@ -25,7 +25,7 @@
 
     <dependencyManagement>
         <dependencies>
-            <!--BoyunCloud依赖配置-->
+            <!--DigitalSmart依赖配置-->
             <dependency>
                 <groupId>com.digital.smart</groupId>
                 <artifactId>digital-smart-dependencies</artifactId>
@@ -313,21 +313,21 @@
 
     <!--digital-smart-modules-->
     <modules>
-        <!--BoyunCloud 统一核心基础Boot模块-->
+        <!--DigitalSmart 统一核心基础Boot模块-->
         <module>digital-smart-boot</module>
-        <!--BoyunCloud 统一公共聚合Common模块-->
+        <!--DigitalSmart 统一公共聚合Common模块-->
         <module>digital-smart-common</module>
-        <!--BoyunCloud 统一服务组件Component模块-->
+        <!--DigitalSmart 统一服务组件Component模块-->
         <module>digital-smart-component</module>
-        <!--BoyunCloud 统一核心框架Framework模块-->
+        <!--DigitalSmart 统一核心框架Framework模块-->
         <module>digital-smart-framework</module>
-        <!--BoyunCloud 统一整合资源Integration模块-->
+        <!--DigitalSmart 统一整合资源Integration模块-->
         <module>digital-smart-integration</module>
-        <!--BoyunCloud 统一中间件聚合Middleware模块-->
+        <!--DigitalSmart 统一中间件聚合Middleware模块-->
         <module>digital-smart-middleware</module>
-        <!--BoyunCloud 统一自定义组件Starter模块-->
+        <!--DigitalSmart 统一自定义组件Starter模块-->
         <module>digital-smart-starter</module>
-        <!--BoyunCloud 统一开发工具Toolkit模块-->
+        <!--DigitalSmart 统一开发工具Toolkit模块-->
         <module>digital-smart-toolkit</module>
     </modules>
 
